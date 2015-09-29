@@ -1,6 +1,6 @@
 {
   "name": "js-type-gen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JS type generator",
   "main": "lib/bin.js",
   "bin": {
@@ -15,5 +15,8 @@
     "generator-js-type": "0.0.3",
     "optimist": "^0.6.1",
     "yeoman-environment": "^1.2.7"
+  },
+  "scripts": {
+    "preinstall": "npm i -g yo generator-js-type@0.0.3"
   }
 }
