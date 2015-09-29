@@ -1,0 +1,19 @@
+{
+  "name": "js-type-gen",
+  "version": "0.0.1",
+  "description": "JS type generator",
+  "main": "lib/bin.js",
+  "bin": {
+    "js-type-gen": "lib/bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lima.igorribeiro@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "generator-js-type": "0.0.2",
+    "optimist": "^0.6.1",
+    "yeoman-environment": "^1.2.7"
+  }
+}
