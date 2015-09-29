@@ -1,6 +1,6 @@
 {
   "name": "js-type-gen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS type generator",
   "main": "lib/bin.js",
   "bin": {
@@ -12,7 +12,7 @@
   "author": "lima.igorribeiro@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "generator-js-type": "0.0.2",
+    "generator-js-type": "0.0.3",
     "optimist": "^0.6.1",
     "yeoman-environment": "^1.2.7"
   }
