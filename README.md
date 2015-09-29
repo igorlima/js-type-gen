@@ -1,5 +1,5 @@
 # js-type-gen
-CLI for generating JS6 classes
+CLI for generating JS6 classes. A wrapper around [generator-js-type](https://github.com/igorlima/generator-js-type), which is a [Yeoman Generator](http://yeoman.io/authoring/index.html);
 
 ## Install
 
