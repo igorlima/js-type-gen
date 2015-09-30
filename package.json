@@ -15,13 +15,14 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.4",
+    "istanbul": "^0.3.21",
     "jscover": "^1.0.0",
     "mocha": "~2.3.3",
     "mocha-lcov-reporter": "^1.0.0"
   },
   "scripts": {
-    "preinstall": "npm i -g yo generator-js-type@0.0.4 && npm i -g istanbul",
-    "test": "cd test && istanbul cover ../node_modules/.bin/_mocha --report lcovonly -- first_spec.js -R spec && cat ./coverage/lcov.info | ../node_modules/coveralls/bin/coveralls.js",
+    "preinstall": "npm i -g yo generator-js-type@0.0.4",
+    "test": "cd test && ../node_modules/.bin/istanbul cover ../node_modules/.bin/_mocha --report lcovonly -- first_spec.js -R spec && cat ./coverage/lcov.info | ../node_modules/coveralls/bin/coveralls.js",
     "omg": "istanbul cover _mocha -- ./test/first_spec.js -R mocha-lcov-reporter"
   }
 }
