@@ -6,9 +6,6 @@
   "bin": {
     "js-type-gen": "lib/bin.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "lima.igorribeiro@gmail.com",
   "license": "ISC",
   "dependencies": {
@@ -16,7 +13,11 @@
     "optimist": "^0.6.1",
     "yeoman-environment": "^1.2.7"
   },
+  "devDependencies": {
+    "mocha": "~2.3.3"
+  },
   "scripts": {
-    "preinstall": "npm i -g yo generator-js-type@0.0.4"
+    "preinstall": "npm i -g yo generator-js-type@0.0.4",
+    "test": "./node_modules/mocha/bin/mocha test/*_spec.js"
   }
 }
