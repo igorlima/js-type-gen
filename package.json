@@ -18,6 +18,6 @@
   },
   "scripts": {
     "preinstall": "npm i -g yo generator-js-type@0.0.4",
-    "test": "mocha test/*_spec.js"
+    "test": "mocha test/*_spec.js" 
   }
 }
