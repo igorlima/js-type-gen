@@ -1,4 +1,4 @@
-js-type-gen [![Build Status](https://travis-ci.org/igorlima/js-type-gen.png)](https://travis-ci.org/igorlima/js-type-gen) [![Node dependencies status](https://david-dm.org/igorlima/js-type-gen.png)](https://david-dm.org/igorlima/js-type-gen) [![npm version](https://badge.fury.io/js/js-type-gen.svg)](http://badge.fury.io/js/js-type-gen)
+js-type-gen [![Build Status](https://travis-ci.org/igorlima/js-type-gen.png)](https://travis-ci.org/igorlima/js-type-gen) [![Coverage Status](https://coveralls.io/repos/schweller/js-type-gen/badge.svg?branch=coverage&service=github)](https://coveralls.io/github/schweller/js-type-gen?branch=coverage) [![Node dependencies status](https://david-dm.org/igorlima/js-type-gen.png)](https://david-dm.org/igorlima/js-type-gen) [![npm version](https://badge.fury.io/js/js-type-gen.svg)](http://badge.fury.io/js/js-type-gen)
 ==========================
 
 CLI for generating JS6 classes. A wrapper around [generator-js-type](https://github.com/igorlima/generator-js-type), which is a [Yeoman Generator](http://yeoman.io/authoring/index.html);
