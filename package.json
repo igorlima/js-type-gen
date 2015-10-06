@@ -9,7 +9,7 @@
   "author": "lima.igorribeiro@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "generator-js-type": "0.0.4",
+    "generator-js-type": "0.0.5",
     "optimist": "^0.6.1",
     "yeoman-environment": "^1.2.7"
   },
