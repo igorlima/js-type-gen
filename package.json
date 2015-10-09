@@ -1,6 +1,6 @@
 {
   "name": "js-type-gen",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "JS type generator",
   "main": "lib/bin.js",
   "bin": {
